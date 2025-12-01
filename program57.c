@@ -11,11 +11,6 @@ bool CheckPrime(int iNo)
         iNo=-iNo;
     }
     
-    if (iNo == 0 || iNo == 1)
-    {
-        return false; // 0 and 1 are NOT prime
-    }
-    
     for(iCnt=2;iCnt<=(iNo/2);iCnt++)
     {
         if((iNo%iCnt) == 0)
@@ -54,3 +49,4 @@ int main()
 //Time Complexity For Prime : O(N/2)
 
 //Time Complexity For Non Prime :Either 1 Or 2
+
