@@ -116,7 +116,7 @@ void DeleteLast(PPNODE first)
             temp = temp->next;
         }
 
-        free(temp);
+        free(temp->next);
         temp->next = NULL;
     }
 }
