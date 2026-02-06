@@ -1,0 +1,13 @@
+
+class program599
+{
+    public static void main(String A[]) throws Exception
+    {   
+        String str = "Python Java Data Structure ";
+
+        String Arr[] = str.split(" ");
+
+        System.out.println(Arr.length);
+ 
+    }
+}
