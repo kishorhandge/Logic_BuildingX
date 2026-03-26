@@ -1,0 +1,41 @@
+
+import java.util.*;
+
+class Student
+{
+    public String Name;
+    public int Marks;
+
+    public Student(String a , int b)
+    {
+        this.Name = a;
+        this.Marks = b;
+    }
+
+    @Override
+    public String toString()
+    {
+        return  this.Name+ " : " + this.Marks;
+    }
+
+}
+
+class program887
+{   
+    public static void main(String A[])
+    {   
+        Scanner sobj = new Scanner(System.in);
+
+        ArrayList <Integer> aobj = new ArrayList <Integer> ();
+
+        Student s1 = new Student("Sagar", 90);
+        Student s2 = new Student("Rahul", 80);
+        Student s3 = new Student("Pooja", 92);
+        Student s4 = new Student("Amit", 72);
+        
+        System.out.println(s1);     //s1.toString
+        System.out.println(s2);      //s2.toString
+
+    }
+}
+
