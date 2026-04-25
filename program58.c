@@ -4,7 +4,7 @@
 bool CheckPrime(int iNo)
 {
     int iCnt=0;
-    bool bFlag=false;
+    bool bFlag=true;
 
     if(iNo<0)
     {
